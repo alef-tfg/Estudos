@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: #7ee1af;
+}
+/*97FCC3 63F1A1 3DDC82 23B764 1A7542*/
+header {
+    background-image: linear-gradient(to bottom, #3ddc84, #1A7542);
+    text-align: center;
+    padding: 10px;
+    margin: -10px -10px 0px;
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    margin: 1%;
+    color: white
+}
+nav > a:hover {
+    background-color: rgb(37, 212, 131);
+    border-radius: 2px;
+    padding: 4px;
+}
+
+.header {
+    font-family: 'Bebas Neue';
+    background-image: none;
+    color: white;
+}
+
+
+main {
+    background-color: white;
+    width: 80%;
+    margin: 0px auto 50px auto;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+h1 {
+    font-family: idroid;
+    color: darkgreen;
+
+}
+
+h2 {
+    padding: 3px 10px;
+    background-image: linear-gradient(to right, rgb(126, 225, 175), white);
+    margin: auto;
+    width: 95%;
+    font-family: idroid;
+    color: darkgreen;
+}
+
+picture {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: auto;
+}
+
+#video {
+    background-color: darkgreen;
+    margin: 0px;
+    text-align: center;
+}
+
+div#extra {
+    background-color: rgb(195, 235, 215);
+    border-radius: 5%;
+}
+div#extra > h1 {
+    color: white;
+    background-color: darkgreen;
+    border-radius: 2%;
+    padding: 10px;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    margin: 0px, -10px, -10px, -10px;
+    padding: 10px;
+}

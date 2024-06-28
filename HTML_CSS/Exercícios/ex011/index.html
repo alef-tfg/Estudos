@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho d seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="Imagem flexível">
+
+    </picture>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imagens/foto-G.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-P.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Repoduzindo áudio</h1>
+    <p>Observe o áudio no player abaixo</p>
+    <audio src="midia/City-Walk.mp3" controls autoplay></audio>
+
+    <p>também podemos adicionar arquivos diverentes para garantir a compatibilidade com o navegador:</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>infelizmente seu navegador não consegue reproduzir o áudio, <a href="midia/guanacast-33.mp3">Clique aqui para baixar</a>.</p>
+    </audio>
+</body>
+</html>
